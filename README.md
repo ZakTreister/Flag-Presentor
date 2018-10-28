@@ -2,9 +2,9 @@
 
 This project consists of 3 react components:
 
-a. DropDownCountries - renders a dropdown list of all the contries returning from the flag API.
-b. Name - Presents the name of the country chosen by the user.
-c. Flag - Presents the flag of the country chosen by the user.
+  1. DropDownCountries - renders a dropdown list of all the contries returning from the flag API.
+  2. Name - Presents the name of the country chosen by the user.
+  3. Flag - Presents the flag of the country chosen by the user.
 
 Upon loading, the app creates a fetch request to https://restcountries.eu/rest/v2/all?fields=name;flag, requesting a list of countries and flags. The returning array is then stored in the state, and a dropdown with the list of counries is then presented to the user.
 
